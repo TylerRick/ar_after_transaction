@@ -5,4 +5,5 @@ group :dev do
   gem 'rspec', '~>2'
   gem 'mysql'
   gem 'activerecord', '~>3', :require => 'active_record'
+  gem 'debugger'
 end
