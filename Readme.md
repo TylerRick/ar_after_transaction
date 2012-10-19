@@ -4,10 +4,12 @@ Normally everything gets rolled back when a transaction fails, but you cannot ro
 
 Install
 =======
-    rails plugin install git://github.com/grosser/ar_after_transaction
-or
-    gem install ar_after_transaction
 
+Add this line to your Gemfile:
+
+    gem 'ar_after_transaction'
+
+and run `bundle install`.
 
 Usage
 =====
